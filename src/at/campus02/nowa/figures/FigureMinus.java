@@ -1,7 +1,7 @@
 package at.campus02.nowa.figures;
 
 public class FigureMinus extends Figure {
-    public FigureMinus() {
+    public FigureMinus(int size) {
         symbol[0][0] = ' ';
         symbol[1][0] = ' ';
         symbol[2][0] = ' ';
