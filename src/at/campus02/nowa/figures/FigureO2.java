@@ -2,6 +2,7 @@ package at.campus02.nowa.figures;
 
 public class FigureO2 extends Figure {
     public FigureO2(int size) {
+        _faktor = size;
         symbol[0][0] = ' ';
         symbol[1][0] = 'X';
         symbol[2][0] = ' ';
